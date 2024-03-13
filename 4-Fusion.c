@@ -13,7 +13,7 @@ void triFusion(int T[], int g, int d)
     }
 }
 
-fusion(int T[], int g, int m, int d)
+void fusion(int T[], int g, int m, int d)
 {
     int i, j, k;
     int n1 = m - g + 1;
