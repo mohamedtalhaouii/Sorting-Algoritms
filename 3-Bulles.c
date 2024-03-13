@@ -1,4 +1,7 @@
 
+//Tri Par Bulles ( Bubble Sort )
+//Complexité : O(n²)
+
 void triBulle(int T[], int taille)
 {
     for (int i = 0 ; i < taille - 1 ; i++)

@@ -1,3 +1,7 @@
+
+//Tri Rapide (Quick Sort)
+//Complexité : O(n²)
+
 void triRapide(int T[], int bas, int haut)
 {
     if (bas < haut)

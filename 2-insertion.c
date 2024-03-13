@@ -1,3 +1,7 @@
+
+//Tri Par insertion ( insertion Sort )
+//Complexité : O(n²)
+
 void triInsertion(int T[], int taille)
 {
     for (int i = 1 ; i < taille ; i++)

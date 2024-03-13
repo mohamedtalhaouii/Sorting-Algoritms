@@ -1,4 +1,7 @@
 
+//Tri Par Tas (Heap Sort)
+//Complexité : O(n.log(n))
+
 void triTas(int T[], int taille)
 {
     for (int i = taille / 2 - 1 ; i >= 0 ; i--)

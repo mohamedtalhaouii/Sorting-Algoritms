@@ -1,5 +1,8 @@
-//ordre Decroissante
 
+//Tri Par Selection ( Selection Sort )
+//Complexité : O(n²)
+
+//ordre Decroissante
 void triSelection(int T[], int taille)
 {
     for (int i = 0 ; i < taille - 1 ; i++)

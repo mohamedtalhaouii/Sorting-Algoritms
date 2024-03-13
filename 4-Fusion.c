@@ -1,4 +1,7 @@
 
+//Tri Fusion (Merge Sort)
+//Complexité : O(n)
+
 void triFusion(int T[], int g, int d)
 {
     if (g < d)
