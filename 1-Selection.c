@@ -25,9 +25,3 @@ void echanger(int *a, int *b)
     *a = *b;
     *b = tmp;
 }
-
-int main()
-{
-    
-    return 0;
-}
