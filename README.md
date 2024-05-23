@@ -1,7 +1,7 @@
 <h1 align="center">Les Algorithmes de Tri</h1>
-
-Ce Repository présente les principaux algorithmes de tri dans divers langages. Indispensable pour organiser les données, il est utile aux débutants et aux experts pour comparer différentes techniques.
-<br><br>
+<br>
+<h3 align="center">Ce Repository présente les principaux algorithmes de tri dans divers langages. Indispensable pour organiser les données, il est utile aux débutants et aux experts pour comparer différentes techniques. </h3>
+<hr>
 <h3> Les algorithmes de tri couverts dans ce repository incluent : </h3>
 
 - **Tri par sélection (Selection Sort) :** Le tri par sélection divise la liste d'entrée en deux parties : une sous-liste triée et une sous-liste non triée. Il sélectionne de manière répétée l'élément le plus petit (ou le plus grand, selon l'ordre de tri) de la sous-liste non triée et le déplace à la fin de la sous-liste triée.
