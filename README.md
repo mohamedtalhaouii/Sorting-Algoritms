@@ -15,4 +15,5 @@ Ce repository offre un aperçu des différents algorithmes de tri courants mis e
 - **Tri rapide (Quick Sort) :** Le tri rapide sélectionne un élément pivot de la liste, partitionne la liste en deux sous-listes de sorte que tous les éléments inférieurs au pivot viennent avant lui et tous les éléments supérieurs au pivot viennent après lui. Il trie ensuite récursivement les sous-listes.
 
 - **Tri par tas (Heap Sort) :** Le tri par tas construit une structure de tas à partir de la liste d'entrée et extrait de manière répétée l'élément maximum (ou minimum) du tas, reconstruisant le tas jusqu'à ce que la liste soit triée.
+<hr>
 <h3 align="center"> 🧑🏻‍💻 | Made By : <a href="https://github.com/mohamedtalhaouii" target="_blank">Mohamed Talhaoui</a></h3>
