@@ -1,4 +1,4 @@
-<h1 align="center">Les Algorithmes de Tri</h1>
+<h1 align="center">Algorithmes de Tri</h1>
 
 <h3 align="center">Ce Repository présente les principaux algorithmes de tri dans divers langages. Indispensable pour organiser les données, il est utile aux débutants et aux experts pour comparer différentes techniques. </h3>
 
