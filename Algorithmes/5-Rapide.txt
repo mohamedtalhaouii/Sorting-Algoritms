@@ -1,0 +1,31 @@
+Algorithme TriRapide
+
+    Fonction Partitionner(T : Tableau entier, bas : Entier, haut : Entier) -> Entier
+        Variables :
+            pivot : Entier
+            i, j : Entier
+        Début
+            pivot <-- T[haut]
+            i <-- bas - 1
+
+            Pour j de bas à haut - 1
+                Si T[j] < pivot alors
+                    i <-- i + 1
+                    Echanger(T, i, j)
+                Fin Si
+            Fin Pour
+
+            Echanger(T, i + 1, haut)
+            retourner i + 1
+        Fin
+
+    Procédure TriRapide(T : Tableau entier, bas : Entier, haut : Entier)
+        Variables :
+            pivot : Entier
+        Début
+            Si bas < haut alors
+                pivot <-- Partitionner(T, bas, haut)
+                TriRapide(T, bas, pivot - 1)
+                TriRapide(T, pivot + 1, haut)
+            Fin Si
+        Fin

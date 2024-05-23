@@ -1,0 +1,18 @@
+Algorithme TriParInsertion
+
+    Procédure TriInsertion(T : Tableau entier)
+        Variables :
+            N : Entier
+            clé, j : Entier
+        Début
+            N <-- longueur(T)
+            Pour i de 1 à N - 1
+                clé <-- T[i]
+                j <-- i - 1
+                Tant que j >= 0 et T[j] > clé
+                    T[j + 1] <-- T[j]
+                    j <-- j - 1
+                Fin Tant Que
+                T[j + 1] <-- clé
+            Fin Pour
+        Fin

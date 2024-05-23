@@ -1,0 +1,57 @@
+Algorithme TriParFusion
+
+    Procédure Fusion(T : Tableau entier, gauche : Entier, milieu : Entier, droite : Entier)
+        Variables :
+            n1, n2 : Entier
+            L[], R[] : Tableau entier
+            i, j, k : Entier
+        Début
+            n1 <-- milieu - gauche + 1
+            n2 <-- droite - milieu
+
+            Pour i de 0 à n1 - 1
+                L[i] <-- T[gauche + i]
+            Fin Pour
+            Pour j de 0 à n2 - 1
+                R[j] <-- T[milieu + 1 + j]
+            Fin Pour
+
+            i <-- 0
+            j <-- 0
+            k <-- gauche
+
+            Tant que i < n1 et j < n2
+                Si L[i] <= R[j] alors
+                    T[k] <-- L[i]
+                    i <-- i + 1
+                Sinon
+                    T[k] <-- R[j]
+                    j <-- j + 1
+                Fin Si
+                k <-- k + 1
+            Fin Tant Que
+
+            Tant que i < n1
+                T[k] <-- L[i]
+                i <-- i + 1
+                k <-- k + 1
+            Fin Tant Que
+
+            Tant que j < n2
+                T[k] <-- R[j]
+                j <-- j + 1
+                k <-- k + 1
+            Fin Tant Que
+        Fin
+
+    Procédure TriFusion(T : Tableau entier, gauche : Entier, droite : Entier)
+        Variables :
+            milieu : Entier
+        Début
+            Si gauche < droite alors
+                milieu <-- (gauche + droite) / 2
+                TriFusion(T, gauche, milieu)
+                TriFusion(T, milieu + 1, droite)
+                Fusion(T, gauche, milieu, droite)
+            Fin Si
+        Fin

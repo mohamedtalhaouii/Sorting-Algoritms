@@ -1,0 +1,16 @@
+Algorithme TriParBulles
+
+    Procédure TriBulles(T : Tableau entier)
+        Variables :
+            N : Entier
+            i, j : Entier
+        Début
+            N <-- longueur(T)
+            Pour i de 0 à N - 2
+                Pour j de 0 à N - i - 2
+                    Si T[j] > T[j + 1] alors
+                        Echanger(T, j, j + 1)
+                    Fin Si
+                Fin Pour
+            Fin Pour
+        Fin

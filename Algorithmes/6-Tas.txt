@@ -1,0 +1,41 @@
+Algorithme TriParTas
+
+    Procédure Entasser(T : Tableau entier, N : Entier, i : Entier)
+        Variables :
+            plus_grand : Entier
+            gauche : Entier
+            droit : Entier
+        Début
+            plus_grand <-- i
+            gauche <-- 2 * i + 1
+            droit <-- 2 * i + 2
+
+            Si gauche < N et T[gauche] > T[plus_grand] alors
+                plus_grand <-- gauche
+            Fin Si
+
+            Si droit < N et T[droit] > T[plus_grand] alors
+                plus_grand <-- droit
+            Fin Si
+
+            Si plus_grand != i alors
+                Echanger(T, i, plus_grand)
+                Entasser(T, N, plus_grand)
+            Fin Si
+        Fin
+
+    Procédure TriParTas(T : Tableau entier)
+        Variables :
+            N : Entier
+            i : Entier
+        Début
+            N <-- longueur(T)
+            Pour i de N / 2 - 1 à -1
+                Entasser(T, N, i)
+            Fin Pour
+
+            Pour i de N - 1 à 0
+                Echanger(T, 0, i)
+                Entasser(T, i, 0)
+            Fin Pour
+        Fin

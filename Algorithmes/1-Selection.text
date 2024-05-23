@@ -1,0 +1,19 @@
+Algorithme TriParSelection
+
+    Procédure TriSelection(T : Tableau entier)
+        Variables :
+            N : Entier
+            min_index : Entier
+            i, j : Entier
+        Début
+            N <-- longueur(T)
+            Pour i de 0 à N - 1
+                min_index <-- i
+                Pour j de i+1 à N
+                    Si T[j] < T[min_index] alors
+                        min_index <-- j
+                    Fin Si
+                Fin Pour
+                Echanger(T, i, min_index)
+            Fin Pour
+        Fin
