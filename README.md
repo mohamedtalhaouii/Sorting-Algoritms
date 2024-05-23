@@ -1,4 +1,4 @@
-<h1 align="center">Common Sorting Algorithms</h1>
+<h1 align="center">Les Algorithmes de Tri</h1>
 
 Ce repository offre un aperçu des différents algorithmes de tri courants mis en œuvre dans divers langages de programmation. Comprendre les algorithmes de tri est crucial pour tout programmeur, car ils sont largement utilisés dans diverses applications pour organiser efficacement les données. Que vous soyez un débutant apprenant les algorithmes ou un développeur expérimenté cherchant des exemples d'implémentation, ce dépôt vise à servir de ressource précieuse pour comprendre et comparer différentes techniques de tri.
 <br><br>
