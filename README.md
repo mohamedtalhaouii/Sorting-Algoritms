@@ -1,7 +1,5 @@
 <h1 align="center">Algorithmes de Tri</h1>
 
-<h3 align="center">Ce Repository présente les principaux algorithmes de tri dans divers langages. Indispensable pour organiser les données, il est utile aux débutants et aux experts pour comparer différentes techniques. </h3>
-
 <br>![Sorting-Algorithms](https://github.com/mohamedtalhaouii/Sorting-Algoritms/assets/144726758/8c6ee004-f0b2-49be-9b93-78d8c2f44488)
 
 <hr>
